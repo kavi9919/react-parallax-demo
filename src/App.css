@@ -43,7 +43,7 @@
 }
 
 .animation, .animation_layer {
-	height: 1000px;
+	height: 100vh;
 }
 
 .animation {
@@ -54,8 +54,8 @@
 
 .animation_layer {
 	background-position: bottom center;
-	background-size: auto 1038px;
-	background-repeat: repeat-x;
+	background-size: auto;
+	background-repeat: no-repeat;
 	width: 100%;
 	position: absolute;
 }
@@ -63,38 +63,39 @@
 	position: fixed;
 }
 
+
 #artback {
-  background-image: url(./images/background.png);
+  background-image: url(./images/mask_6.png);
 }
 
 #mountain {
-  background-image: url(./images/mountains.png);
+  background-image: url(./images/mask_8.png);
 }
 
 #logoland {
-  background-image: url(./images/logo_land.png);
+  background-image: url(./images/mask_7.png);
 }
 
-#jungle1 {
+/* #jungle1 {
   background-image: url(./images/jungle1.png);
 }
 
 #jungle2 {
-  background-image: url(./images/jungle2.png);
-}
+  background-image: url(./images/mask_6.png);
+} */
 
 #jungle3 {
-  background-image: url(./images/jungle3.png);
+  background-image: url(./images/mask_4.png);
 }
 
 #jungle4 {
-  background-image: url(./images/jungle4.png);
+  background-image: url(./images/mask_3.png);
 }
 
 #jungle5 {
-  background-image: url(./images/jungle5.png);
+  background-image: url(./images/mask_2.png);
 }
 
 #manonmountain {
-  background-image: url(./images/man_on_mountain.png);
+  background-image: url(./images/mask_1.png);
 }
